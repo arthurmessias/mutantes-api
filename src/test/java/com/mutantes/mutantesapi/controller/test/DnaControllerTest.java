@@ -35,7 +35,6 @@ public class DnaControllerTest {
 
         this.mockMvc.perform(post("/mutant")
                         .queryParam("version","1")
-                        //.param("version", "1")
                         .contentType("application/json")
                         .content(mapper.writeValueAsString(request)))
                         .andExpect(status().isForbidden());
