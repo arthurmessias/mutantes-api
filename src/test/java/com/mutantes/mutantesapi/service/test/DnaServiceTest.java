@@ -1,5 +1,6 @@
 package com.mutantes.mutantesapi.service.test;
 
+import com.mutantes.mutantesapi.service.IDnaService;
 import com.mutantes.mutantesapi.service.impl.DnaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +14,7 @@ import static org.mockito.Mockito.when;
 public class DnaServiceTest {
 
     @Mock
-    private DnaService service;
+    private IDnaService service;
 
     @BeforeEach
     void setMockOutput() {
@@ -24,4 +25,5 @@ public class DnaServiceTest {
     public void whenIsMutant() {
         assertTrue(service.isMutant(new String[] {"AAAATT","CCCCTT"}));
     }
+
 }
