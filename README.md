@@ -2,6 +2,9 @@
 
 Dada una cadena de ADN verifica si es mutante o no-mutante.
 
+## Dependencias
+[mutantes-registry](https://github.com/arthurmessias/mutantes-registry) - NetFlix Eureka Server
+
 ## Para clonar este repositorio
 ```bash
 git clone https://github.com/arthurmessias/mutantes-api.git
@@ -24,6 +27,7 @@ Swagger UI http://localhost:8090/mutantes-api/swagger-ui.html
 ```
 http://localhost:8090/mutantes-api/mutant?version=1
 ```
+___
 #### Mutante
 **Parameters**
 
@@ -43,6 +47,7 @@ http://localhost:8090/mutantes-api/mutant?version=1
 ```
 Mutant
 ```
+___
 
 #### No-Mutante
 **Parameters**
