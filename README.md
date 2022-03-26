@@ -3,7 +3,8 @@
 Dada una cadena de ADN verifica si es mutante o no-mutante.
 
 ## Dependencias
-[mutantes-registry](https://github.com/arthurmessias/mutantes-registry) - NetFlix Eureka Server
+1. [mutantes-registry](https://github.com/arthurmessias/mutantes-registry) - NetFlix Eureka Server
+2. [mutantes-db-api](https://github.com/arthurmessias/mutantes-db-api) - Microservice para pesistencia de las estadisticas en MongoDB
 
 ## Para clonar este repositorio
 ```bash
