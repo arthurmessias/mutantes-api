@@ -24,6 +24,10 @@ mvn spring-boot:run
 ## Microservice endpoint
 Swagger UI http://localhost:8090/mutantes-api/swagger-ui.html
 
+Local endpoint: http://localhost:8090
+
+Heroku endpoint: https://mutantes-svc-api.herokuapp.com
+
 ### POST /mutant
 ```
 http://localhost:8090/mutantes-api/mutant?version=1
